@@ -1,25 +1,20 @@
 {
   "name": "handlebars",
   "description": "Extension of the Mustache logicless template language",
-  "version": "1.0.5beta",
+  "version": "1.0.6beta",
   "homepage": "http://www.handlebarsjs.com/",
   "keywords": [
     "handlebars mustache template html"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/kpdecker/handlebars.js.git"
-  },
+  "repository": [
+		{
+   		 "type": "git",
+   		 "url": "git://github.com/goodybag/handlebars.js.git"
+  	}
+	],
   "engines": {
     "node": ">=0.4.7"
   },
-  "dependencies": {
-    "optimist": "~0.3",
-    "uglify-js": "~1.2"
-  },
   "devDependencies": {},
-  "main": "lib/handlebars.js",
-  "bin": {
-    "handlebars": "bin/handlebars"
-  }
+  "main": "lib/index.js",
 }
