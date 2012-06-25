@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Load require and start from app -->
+    <script data-main="js/app" src="js/jam/require.js"></script>
+  </head>
+  <body>
+    <!-- ################# -->
+    <!-- TEMPLATES GO HERE -->
+    <!-- ################# -->
+
+    <script id="main-header-tmpl" type="text/x-handlebars-template">
+      Hello, <span class="name">{{name}}</span>.
+    </script>
+
+    <script id="main-content-tmpl" type="text/x-handlebars-template">
+      <div class="something">{{something}}</div>
+      <div class="else">{{somethingElse}}</div>
+    </script>
+
+    <script id="main-footer-tmpl" type="text/x-handlebars-template">
+      <div class="footer-content">
+        This is mah foota!
+      </div>
+    </script>
+  </body>
+</html>

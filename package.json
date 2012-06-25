@@ -6,7 +6,7 @@
   "keywords": [
     "handlebars mustache template html"
   ],
-  "repository": [
+  "repositories": [
 		{
    		 "type": "git",
    		 "url": "git://github.com/goodybag/handlebars.js.git"
@@ -16,5 +16,5 @@
     "node": ">=0.4.7"
   },
   "devDependencies": {},
-  "main": "lib/index.js",
+  "main": "lib/index.js"
 }

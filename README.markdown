@@ -1,16 +1,20 @@
-[![Build Status](https://secure.travis-ci.org/wycats/handlebars.js.png)](http://travis-ci.org/wycats/handlebars.js)
-
 Handlebars.js
 =============
 
 Handlebars.js is an extension to the [Mustache templating language](http://mustache.github.com/) created by Chris Wanstrath. Handlebars.js and Mustache are both logicless templating languages that keep the view and the code separated like we all know they should be.
 
-Checkout the official Handlebars docs site at [http://www.handlebarsjs.com](http://www.handlebarsjs.com).
+This is the browser-only version to be used with require.js or other AMD loaders. Checkout the official Handlebars docs site at [http://www.handlebarsjs.com](http://www.handlebarsjs.com).
 
 
 Installing
 ----------
 Installing Handlebars is easy. Simply [download the package from GitHub](https://github.com/wycats/handlebars.js/archives/master) and add it to your web pages (you should usually use the most recent version).
+
+Or you can use jam
+
+```
+jam install handlebars
+```
 
 Usage
 -----
@@ -19,7 +23,7 @@ In general, the syntax of Handlebars.js templates is a superset of Mustache temp
 Once you have a template, use the Handlebars.compile method to compile the template into a function. The generated function takes a context argument, which will be used to render the template.
 
 ```js
-var source = "<p>Hello, my name is {{name}}. I am from {{hometown}}. I have " + 
+var source = "<p>Hello, my name is {{name}}. I am from {{hometown}}. I have " +
              "{{kids.length}} kids:</p>" +
              "<ul>{{#kids}}<li>{{name}} is {{age}}</li>{{/kids}}</ul>";
 var template = Handlebars.compile(source);
@@ -35,6 +39,10 @@ var result = template(data);
 //   <li>Sally is 4</li>
 // </ul>
 ```
+
+Require example
+
+Refer to the example folder for use with require and backbone
 
 
 Registering Helpers
