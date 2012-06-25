@@ -40,7 +40,7 @@ var result = template(data);
 // </ul>
 ```
 
-Require example
+##Require example
 
 Refer to the example folder for use with require and backbone
 
