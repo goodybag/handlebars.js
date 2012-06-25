@@ -1,12 +1,8 @@
 {
     "jam_version": "0.1.0",
     "dependencies": {
-        "gb-crazier-alert": null,
-        "leFunc": ">=1.0.5",
         "backbone": null,
-        "less": null,
         "handlebars": "linked",
-        "domReady": null,
-        "amanda": null
+        "domReady": null
     }
 }

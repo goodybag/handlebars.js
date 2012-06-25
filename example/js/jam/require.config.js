@@ -1,24 +1,9 @@
 var jam = {
     "packages": [
         {
-            "name": "gb-crazier-alert",
-            "location": "jam/gb-crazier-alert",
-            "main": "lib/index.js"
-        },
-        {
-            "name": "leFunc",
-            "location": "jam/leFunc",
-            "main": "lib/leFunc.js"
-        },
-        {
             "name": "backbone",
             "location": "jam/backbone",
             "main": "backbone.js"
-        },
-        {
-            "name": "less",
-            "location": "jam/less",
-            "main": "./dist/less-1.3.0.js"
         },
         {
             "name": "handlebars",
@@ -29,16 +14,6 @@ var jam = {
             "name": "domReady",
             "location": "jam/domReady",
             "main": "domReady.js"
-        },
-        {
-            "name": "amanda",
-            "location": "jam/amanda",
-            "main": "./releases/latest/amanda.js"
-        },
-        {
-            "name": "gb-crazy-alert",
-            "location": "jam/gb-crazy-alert",
-            "main": "lib/index.js"
         },
         {
             "name": "jquery",
